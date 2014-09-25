@@ -1,0 +1,6 @@
+Test in a partial
+
+<% content_for :header_tags do %>
+    <%= stylesheet_link_tag 'test.css', :plugin => 'redmine_rm11527' %>
+    <%= javascript_include_tag 'test.js', :plugin => 'redmine_rm11527' %>
+<% end %>
